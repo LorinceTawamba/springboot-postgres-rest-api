@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: SPRINGBOOT-POSTGRES-REST-API
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/springboot-postgres-rest-api
+    username: postgres
+    password: Junior@2019@Ismael
+    hikari:
+        initialization-fail-timeout: 0
+        connection-timeout: 20000
+        maximum-pool-size: 5
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL9Dialect
+        format_sql: true
