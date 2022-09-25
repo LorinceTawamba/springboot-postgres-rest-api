@@ -10,7 +10,7 @@
     </parent>
     <groupId>tech.satic.springboot.postgres.rest.api</groupId>
     <artifactId>springboot-postgres-rest-api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>springboot-postgres-rest-api</name>
     <description>springboot-postgres-rest-api</description>
     <properties>
